@@ -1,8 +1,12 @@
 # SpQrt
 ## Description
-salut
 ## Services apparentés (concurrents)
 ## Bénéfices du projet pour le public cible
+SpQrt est destinée à tous les sportifs ou les personnes voulant exercer une activité physique, de n'importe quel catégorie d'âge et motivé à partager ses exploits sportifs à d'autres sportifs.
+Elle favorise donc
+- à rencontrer et échanger avec d'autres sportifs,
+- à découvrir de nouveaux endroits pour exercicer une activité physique,
+- à découvrir de nouvelles musiques ou playlists
 ## Actions possibles 
 Admin: Valider les exercices (fiches) et les vidéos que les utilisateurs proposent sur l'application. Mettre en place les QR code aux lieux correspondants.
 

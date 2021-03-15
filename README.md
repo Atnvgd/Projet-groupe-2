@@ -2,7 +2,7 @@
 ## Description
 ## Services apparentés (concurrents)
 ## Bénéfices du projet pour le public cible
-SpQrt est destinée à tous les sportifs ou les personnes voulant exercer une activité physique, de n'importe quelle catégorie d'âge et motivé à partager ses exploits sportifs à d'autres sportifs.
+SpQrt est destinée à tous les sportifs ou les personnes voulant exercer une activité physique, de n'importe quelle catégorie d'âge et motivé à partager ses exploits sportifs à d'autres utilisateurs.
 
 Elle favorise donc
 - à rencontrer et échanger avec d'autres sportifs,

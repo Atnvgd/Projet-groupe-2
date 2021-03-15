@@ -7,9 +7,12 @@ Nous n'avons pas réellement trouvé d'application similaire à la notre, mais u
 SpQrt est destinée à tous les sportifs ou les personnes voulant exercer une activité physique, de n'importe quelle catégorie d'âge et motivé à partager ses exploits sportifs à d'autres sportifs.
 
 Elle favorise donc
-- à rencontrer et échanger avec d'autres sportifs,
+- à rencontrer et échanger avec d'autres sportifs, notamment sur les entrainements,
 - à découvrir de nouveaux endroits pour exercicer une activité physique,
-- à découvrir de nouvelles musiques ou playlists
+- à découvrir de nouvelles musiques ou playlists.
+
+En somme, SpQrt est dédié à tout utilisateurs, sportifs ou moins sportifs, afin d'échanger et discuter des ses activités physiques quotidiennes !
+
 ## Actions possibles 
 Admin: Valider les exercices (fiches) et les vidéos que les utilisateurs proposent sur l'application. Mettre en place les QR code aux lieux correspondants.
 

@@ -1,15 +1,14 @@
 # SpQrt
 ## Description
 ## Services apparentés (concurrents)
+Nous n'avons pas réellement trouvé d'application similaire à la notre, mais uniquement d'ancien réseaux sociaux un peu dépassés et très spécifique à un seul sport. Nous pouvons tout de même citer Instagram comme énorme concurrent éventuel, étant donné qu'il permet déjà à beaucoup d'utilisateurs de partager les entrainements, se motiver et faire des lives par exemple, mais il est très vaste et général. Notre app est plus spécifique et permet de sélectionner un véritable "publique sportif", ou les utilisateurs peuvent se retrouver entre personnes qui partagent la même passion.
 ## Bénéfices du projet pour le public cible
-SpQrt est destinée à tous les sportifs ou les personnes voulant exercer une activité physique, de n'importe quelle catégorie d'âge et motivé à partager ses exploits sportifs à d'autres utilisateurs.
+SpQrt est destinée à tous les sportifs ou les personnes voulant exercer une activité physique, de n'importe quelle catégorie d'âge et motivé à partager ses exploits sportifs à d'autres sportifs.
 
 Elle favorise donc
-- à rencontrer et échanger avec d'autres sportifs, notamment sur les entrainements,
-- à découvrir de nouveaux endroits pour exercer une activité physique,
-- à découvrir de nouvelles musiques ou playlists.
-
-En somme, SpQrt est dédié à tout le monde, sportifs ou moins sportifs, afin d'échanger et discuter de ses activités physiques quotidiennes !
+- à rencontrer et échanger avec d'autres sportifs,
+- à découvrir de nouveaux endroits pour exercicer une activité physique,
+- à découvrir de nouvelles musiques ou playlists
 ## Actions possibles 
 Admin: Valider les exercices (fiches) et les vidéos que les utilisateurs proposent sur l'application. Mettre en place les QR code aux lieux correspondants.
 

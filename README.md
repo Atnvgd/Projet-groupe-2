@@ -7,7 +7,9 @@ SpQrt est destinée à tous les sportifs ou les personnes voulant exercer une ac
 Elle favorise donc
 - à rencontrer et échanger avec d'autres sportifs, notamment sur les entrainements,
 - à découvrir de nouveaux endroits pour exercer une activité physique,
-- à découvrir de nouvelles musiques ou playlists
+- à découvrir de nouvelles musiques ou playlists.
+
+En somme, SpQrt est dédié à tout le monde, plus ou moins sportifs, afin d'échanger et discuter de ses habitudes sportives !
 ## Actions possibles 
 Admin: Valider les exercices (fiches) et les vidéos que les utilisateurs proposent sur l'application. Mettre en place les QR code aux lieux correspondants.
 

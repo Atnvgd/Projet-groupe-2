@@ -4,16 +4,13 @@ Notre projet est un réseau social qui propose plusieures fonctionnalités. La p
 ## Services apparentés (concurrents)
 Nous n'avons pas réellement trouvé d'application similaire à la notre, mais uniquement d'ancien réseaux sociaux un peu dépassés et très spécifique à un seul sport. Nous pouvons tout de même citer Instagram comme énorme concurrent éventuel, étant donné qu'il permet déjà à beaucoup d'utilisateurs de partager les entrainements, se motiver et faire des lives par exemple, mais il est très vaste et général. Notre app est plus spécifique et permet de sélectionner un véritable "publique sportif", ou les utilisateurs peuvent se retrouver entre personnes qui partagent la même passion.
 ## Bénéfices du projet pour le public cible
-SpQrt est destiné à tous les sportifs ou les personnes voulant exercer une activité physique, de n'importe quelle catégorie d'âge et motivé à partager ses exploits sportifs à d'autres sportifs.
+SpQrt est destinée à tous les sportifs ou les personnes voulant exercer une activité physique, de n'importe quelle catégorie d'âge et motivé à partager ses exploits sportifs à d'autres sportifs.
 
 Elle favorise donc
-- à rencontrer et échanger avec d'autres sportifs, notamment sur les entrainements,
+- à rencontrer et échanger avec d'autres sportifs,
 - à découvrir de nouveaux endroits pour exercicer une activité physique,
-- à découvrir de nouvelles musiques ou playlists.
-
-En somme, SpQrt est dédié à tout utilisateurs, sportifs ou moins sportifs, afin d'échanger et discuter des ses activités physiques quotidiennes !
-
+- à découvrir de nouvelles musiques ou playlists
 ## Actions possibles 
 Admin: Valider les exercices (fiches) et les vidéos que les utilisateurs proposent sur l'application. Mettre en place les QR code aux lieux correspondants.
 
-Utilisateur: Accéder à des exercices proposés, proposer eux-mêmes des exercices (à faire valider par l'admin), lire des QR code mis en place dans différents lieu ou il est possible de faire du streetworkout afin d'accéder à l'exercice proposé. Accéder à une map regroupant les différents lieux ou il est possible de faire du sport ainsi que les QR code. Il y a aussi une partie "réseau social" ou il est possible de partager ses entrainements, se donner des conseils, donner son avis sur différents lieux, faire des lives pour se motiver lors des entrainements.
+Utilisateur: Accéder à des exercices proposés, proposer eux-mêmes des exercices (à faire valider par l'admin), lire des QR code mis en place dans différents lieu ou il est possible de faire du streetworkout afin d'accéder à l'exercice proposé. Accéder à une map regroupant les différents lieux ou il est possible de faire du sport ainsi que les QR code. Il y a aussi une partie "réseau social" ou il est possible de partager ses entrainements, se donner des conseils, donner son avis sur différents lieux, faire des lives pour se motiver lors des entrainements. Il est aussi possible d'écouter et de créer des playlists musicales adaptées au type d'entrainements et de sport que l'on veut pratiquer (motivantes, relaxantes, rythmés...).

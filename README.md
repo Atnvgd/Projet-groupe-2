@@ -1,5 +1,6 @@
 # SpQrt
 ## Description
+salut
 ## Services apparentés (concurrents)
 ## Bénéfices du projet pour le public cible
 ## Actions possibles 

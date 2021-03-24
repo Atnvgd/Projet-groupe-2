@@ -11,7 +11,7 @@ Elle favorise donc
 - à découvrir de nouveaux endroits pour exercicer une activité physique,
 - à découvrir de nouvelles musiques ou playlists.
 
-En somme, SpQrt est dédié à tout utilisateur, sportif ou moins sportif, afin d'échanger et discuter de ses activités physiques quotidiennes !
+En somme, SpQRt est dédié à tout utilisateur, sportif ou moins sportif, afin d'échanger et discuter de ses activités physiques quotidiennes !
 
 ## Actions possibles 
 Admin: Valider les exercices (fiches) et les vidéos que les utilisateurs proposent sur l'application. Cette fonction pour gérer les commentaires/vidéos publiées est aussi assurée par un système de filtrage de mots clés qui seront ban. (L'utilisateur joue aussi un rôle pour gérer les vidéos publiées, c.f. fin du paragraphe suivant.) Mettre en place les QR code aux lieux correspondants.

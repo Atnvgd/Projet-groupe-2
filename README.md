@@ -1,4 +1,4 @@
-# SpQrt
+# spQRt
 ## Description
 Notre projet est un réseau social qui propose plusieures fonctionnalités. La première fonctionnalité permet à l'utilisateur de trouver et de choisir des entraînements proposés par des coachs ou par d'autres utilisateurs (sous forme de fiches écrites ou de vidéos). La deuxième fonctionnalité permet à l'utilisateur de créer des playlists en fonction de son entraînement (sa durée, sa difficulté, etc.) et de les partager avec d'autres utilisateurs. Une troisième fonction affiche une carte répertoriant tous les lieux où il est possible de faire du sport (en extérieur ou en intérieur). Cette carte montre également où les utilisateurs peuvent trouver des QR codes à scanner qui leurs proposent des exercices d'urban-training ou d'autres types de sport (sous forme de fiches ou de vidéos). Finalement les utilisateurs peuvent se suivre mutuellement et comparer leurs entraînements ainsi que leurs objectifs pour se motiver. Pour plus de motivation encore les utilisateurs peuvent se suivre et communiquer en direct lors de leurs entraînements.
 ## Services apparentés (concurrents)

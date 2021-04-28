@@ -1,0 +1,31 @@
+<head>
+  <title>SpQRt</title>
+</head>
+
+<body>
+  <h1>SpQRt</h1>
+
+  {{> accueil}}
+  {{> recherche}}
+  
+</body>
+
+<template name="accueil">
+  <button>Lets Go!</button>
+  <p>Cliquez pour commencer!</p>
+</template>
+
+<template name="recherche">
+  <div class="recherche">
+    <header>
+      <h3>Recherche</h3>
+
+      <form class="new-recherche">
+        <input type="text" name="text" placeholder="Que cherchez-vous?" />
+        <button>Go</button>
+      </form>
+
+    </header>
+    </div>
+</template>
+

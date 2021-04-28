@@ -3,6 +3,6 @@ body {
   font-family: sans-serif;
   text-align: center;
   background-color: #F0A029;
-  background-image: linear-gradient(to bottom, #F0A029, #f70000 100%);
+  background-image: linear-gradient(to bottom, #F0A029, #002efa 100%);
   background-attachment: fixed;
 }

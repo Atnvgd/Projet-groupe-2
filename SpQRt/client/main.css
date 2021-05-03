@@ -1,9 +1,16 @@
 body {
   padding: 10px;
   font-family: sans-serif;
-  background-color: #F0A029;
   background-image: linear-gradient(to bottom, #F0A029,#ffee00 100%);
   background-attachment: fixed;
+}
+
+.burgerMenu {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 12px;
+  cursor: pointer;
 }
 
 .SpQRt {
@@ -14,11 +21,10 @@ body {
   display: block;
   margin: auto;
   background-color: white;
-  border: 1px solid black;
+  border: 2px solid black;
   color: black;
   padding: 10px 24px;
   cursor: pointer;
-
 }
 
 .bienvenu {

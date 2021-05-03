@@ -11,13 +11,14 @@ body {
 }
 
 .btn-group button {
-  margin-left: 88px;
+  display: block;
+  margin: auto;
   background-color: white;
   border: 1px solid black;
   color: black;
   padding: 10px 24px;
   cursor: pointer;
-  float: left;
+
 }
 
 .bienvenu {

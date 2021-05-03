@@ -1,3 +1,6 @@
+/* eslint-env mocha */
+/* Global Meteor */
+
 import assert from "assert";
 
 describe("SpQRt", function () {

@@ -1,7 +1,6 @@
 FlowRouter.route('/', {
-    name: 'home',
+    name: 'homePage',
     action(){
-        BlazeLayout.render('monTemplate');
+        BlazeLayout.render('accueil');
     }
 }); 
-/* Pas encore importé ! */

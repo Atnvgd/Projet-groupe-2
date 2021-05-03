@@ -6,7 +6,12 @@ body {
   background-attachment: fixed;
 }
 
+.SpQRt {
+  text-align: center;
+}
+
 .btn-group button {
+  margin-left: 88px;
   background-color: white;
   border: 1px solid black;
   color: black;
@@ -15,6 +20,14 @@ body {
   float: left;
 }
 
-.accueil {
+.bienvenu {
+  text-align: center;
+}
+
+.recherche {
+  text-align: center;
+}
+
+.new-recherche {
   text-align: center;
 }

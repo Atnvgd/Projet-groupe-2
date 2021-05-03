@@ -11,3 +11,10 @@ FlowRouter.route('/contact', {
         BlazeLayout.render('app_body', { main: 'contact' });
     }
 }); 
+
+FlowRouter.route('/apropos', {
+    name: 'apropos',
+    action(){
+        BlazeLayout.render('app_body', { main: 'apropos' });
+    }
+}); 

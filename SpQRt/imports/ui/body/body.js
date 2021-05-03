@@ -2,6 +2,7 @@ import './body.html';
 import '../../accueil/accueil.js';
 import '../../apropos/apropos.js'
 import '../../contact/contact.js';
+import '../../burgerMenu/bm.js';
 import '../../../lib/routing.js';
 
 import { Template } from 'meteor/templating';
@@ -20,5 +21,10 @@ Template.app_body.events({
     'click #apropos' (event) {
         event.preventDefault();
         FlowRouter.go('apropos');
+    },
+
+    'click #burgerMenu' (event) {
+        event.preventDefault();
+        FlowRouter.go('burgerMenu');
     },
 });

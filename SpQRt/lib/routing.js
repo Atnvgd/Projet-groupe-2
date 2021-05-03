@@ -18,3 +18,10 @@ FlowRouter.route('/apropos', {
         BlazeLayout.render('app_body', { main: 'apropos' });
     }
 }); 
+
+FlowRouter.route('/burgerMenu', {
+    name: 'burgerMenu',
+    action(){
+        BlazeLayout.render('app_body', { main: 'burgerMenu' });
+    }
+}); 

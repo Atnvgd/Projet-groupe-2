@@ -1,6 +1,13 @@
 FlowRouter.route('/', {
-    name: 'homePage',
+    name: 'accueil',
     action(){
-        BlazeLayout.render('accueil');
+        BlazeLayout.render('app_body', { main: 'accueil' });
+    }
+}); 
+
+FlowRouter.route('/contact', {
+    name: 'contact',
+    action(){
+        BlazeLayout.render('app_body', { main: 'contact' });
     }
 }); 

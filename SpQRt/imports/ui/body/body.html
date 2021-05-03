@@ -1,22 +1,14 @@
-<body>
-    <h1>SpQRt</h1>
-</body>
-  
-  <template name="accueil">
-    <button>Lets Go!</button>
-    <p>Cliquez pour commencer!</p>
+<template name="app_body">
+  <h1>SpQRt</h1>
+  <div class="btn-group">
+    <button id="accueil">Accueil</button> 
+    <button id="contact">Contact</button> 
+  </div>
+  {{> Template.dynamic template=main}}
+</template>
+    
 
-    <div class="recherche">
-      <header>
-        <h3>Recherche</h3>
   
-        <form class="new-recherche">
-          <input type="text" name="text" placeholder="Que cherchez-vous?" />
-          <button>Go</button>
-        </form>
   
-      </header>
-      </div>
-  </template>
   
 

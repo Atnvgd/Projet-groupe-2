@@ -1,7 +1,14 @@
 FlowRouter.route('/', {
-    name: 'accueil',
+    name: 'ouverture',
     action(){
-        BlazeLayout.render('app_body', { main: 'accueil' });
+        BlazeLayout.render('app_body', { main: 'ouverture' });
+    }
+}); 
+
+FlowRouter.route('/recherche', {
+    name: 'recherche',
+    action(){
+        BlazeLayout.render('app_body', { main: 'recherche' });
     }
 }); 
 

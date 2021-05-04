@@ -1,5 +1,6 @@
 import './body.html';
-import '../../accueil/accueil.js';
+import '../../ouverture/ouverture.js';
+import '../../recherche/recherche.js';
 import '../../apropos/apropos.js'
 import '../../contact/contact.js';
 import '../../burgerMenu/bm.js';
@@ -8,9 +9,9 @@ import '../../../lib/routing.js';
 import { Template } from 'meteor/templating';
 
 Template.app_body.events({
-    'click #accueil' (event) {
+    'click #recherche' (event) {
         event.preventDefault();
-        FlowRouter.go('accueil');
+        FlowRouter.go('recherche');
     },
 
     'click #contact' (event) {
@@ -26,5 +27,10 @@ Template.app_body.events({
     'click #burgerMenu' (event) {
         event.preventDefault();
         FlowRouter.go('burgerMenu');
+    },
+
+    'click #home' (event) {
+        event.preventDefault();
+        FlowRouter.go('ouverture');
     },
 });

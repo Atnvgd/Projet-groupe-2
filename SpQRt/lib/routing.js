@@ -26,6 +26,13 @@ FlowRouter.route('/apropos', {
     }
 }); 
 
+FlowRouter.route('/profil', {
+    name: 'profil',
+    action(){
+        BlazeLayout.render('app_body', { main: 'profil' });
+    }
+}); 
+
 FlowRouter.route('/burgerMenu', {
     name: 'burgerMenu',
     action(){

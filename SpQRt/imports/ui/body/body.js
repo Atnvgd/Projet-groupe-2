@@ -3,6 +3,7 @@ import '../../ouverture/ouverture.js';
 import '../../recherche/recherche.js';
 import '../../apropos/apropos.js'
 import '../../contact/contact.js';
+import '../../Profil/profil.js';
 import '../../burgerMenu/bm.js';
 import '../../../lib/routing.js';
 
@@ -32,5 +33,10 @@ Template.app_body.events({
     'click #home' (event) {
         event.preventDefault();
         FlowRouter.go('ouverture');
+    },
+
+    'click #profil' (event) {
+        event.preventDefault();
+        FlowRouter.go('profil');
     },
 });

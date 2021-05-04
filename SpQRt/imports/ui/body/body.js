@@ -3,7 +3,7 @@ import '../../ouverture/ouverture.js';
 import '../../recherche/recherche.js';
 import '../../apropos/apropos.js'
 import '../../contact/contact.js';
-import '../../Profil/profil.js';
+import '../../profil/profil.js';
 import '../../burgerMenu/bm.js';
 import '../../../lib/routing.js';
 

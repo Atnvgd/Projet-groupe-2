@@ -1,3 +1,16 @@
 <template name="carte">
     <h1>La carte</h1>
+    <body>
+        <div id="carte" style = 'width:500px;height:500px'></div>
+    </body>
+    <script src = 'https://js.arcgis.com/4.18'>
+    
+    require (["esri/config","esri/Map", "esri/views/MapView"],
+    function(esriConfig, Map, MapView){});
+
+    esriConfig.apiKey = "YOUR-API-KEY" 
+    let map1 = new Map({basemap:"arcgis-topographic"});
+    let mapview = new MapView({container: "carte", map: map1}); // Basemap layer service
+
+    </script>
 </template>

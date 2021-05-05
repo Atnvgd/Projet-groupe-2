@@ -1,5 +1,4 @@
 import './body.html';
-import '../../ouverture/ouverture.js';
 import '../../burgerMenu/bm.js';
 import '../../connection/connection.js';
 import '../../../lib/routing.js';
@@ -15,7 +14,7 @@ Template.app_body.events({
 
     'click #home' (event) {
         event.preventDefault();
-        FlowRouter.go('ouverture');
+        FlowRouter.go('connexion');
     },
 
     'click #connexion' (event) {

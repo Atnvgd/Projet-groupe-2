@@ -1,6 +1,7 @@
 import './body.html';
 import '../../burgerMenu/bm.js';
 import '../../connection/connection.js';
+import '../../creercompte/creercompte.js';
 import '../../../lib/routing.js';
 
 import { Template } from 'meteor/templating';

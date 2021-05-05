@@ -54,3 +54,9 @@ FlowRouter.route('/entrainements', {
     }
 }); 
 
+FlowRouter.route('/creercompte', {
+    name: 'creercompte',
+    action(){
+        BlazeLayout.render('app_body', { main: 'creercompte' });
+    }
+}); 

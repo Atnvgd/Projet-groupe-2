@@ -54,7 +54,7 @@ FlowRouter.route('/entrainements', {
     }
 }); 
 
-Flowrouter.route("/conection", {
+FlowRouter.route("/conection", {
     name: "connection",
     action(){
         BlazeLayout.render("app_body", { main: "connection" });

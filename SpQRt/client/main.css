@@ -50,3 +50,11 @@ body {
   font-size: 0.8em;
   color: grey;
 }
+
+.creercompte {
+  background-color: #F0A029;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}

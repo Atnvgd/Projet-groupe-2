@@ -6,6 +6,7 @@ import '../../contact/contact.js';
 import '../../profil/profil.js';
 import '../../burgerMenu/bm.js';
 import '../../carte/carte.js';
+import '../../connection/connection.js';
 import '../../../lib/routing.js';
 import '../../entrainements/entrainements.js';
 import '../../connection/connection.js';
@@ -47,6 +48,11 @@ Template.app_body.events({
     'click #carte' (event) {
         event.preventDefault();
         FlowRouter.go('carte');
+    },
+
+    'click #connexion' (event) {
+        event.preventDefault();
+        FlowRouter.go('connexion');
     },
     
 });

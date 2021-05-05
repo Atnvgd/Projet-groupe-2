@@ -7,6 +7,7 @@ import '../../profil/profil.js';
 import '../../burgerMenu/bm.js';
 import '../../carte/carte.js';
 import '../../connection/connection.js';
+import '../entrainements/entrainements.js';
 import '../../../lib/routing.js';
 
 

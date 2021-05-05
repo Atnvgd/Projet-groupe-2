@@ -51,9 +51,9 @@ Template.app_body.events({
         FlowRouter.go('carte');
     },
 
-    'click #connection' (event) {
+    'click #connexion' (event) {
         event.preventDefault();
-        FlowRouter.go('connection');
+        FlowRouter.go('connexion');
     },
     
 });

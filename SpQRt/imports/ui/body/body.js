@@ -8,6 +8,9 @@ import '../../burgerMenu/bm.js';
 import '../../carte/carte.js';
 import '../../../lib/routing.js';
 
+import '../../connection/connection.js';
+
+
 import { Template } from 'meteor/templating';
 
 Template.app_body.events({
@@ -46,8 +49,4 @@ Template.app_body.events({
         FlowRouter.go('carte');
     },
     
-    'click #entrainements' (event) {
-        event.preventDefault();
-        FlowRouter.go('entrainements');
-    },
 });

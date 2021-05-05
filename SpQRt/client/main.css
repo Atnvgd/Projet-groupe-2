@@ -27,8 +27,6 @@ body {
 }
 
 .btn-group button {
-  display: block;
-  margin: auto;
   background-color: white;
   border: 2px solid black;
   color: black;
@@ -51,8 +49,4 @@ body {
 .petitTexte {
   font-size: 0.8em;
   color: grey;
-}
-
-.selectionner {
-  text-align: center;
 }

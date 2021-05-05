@@ -5,6 +5,7 @@ import '../../apropos/apropos.js'
 import '../../contact/contact.js';
 import '../../profil/profil.js';
 import '../../burgerMenu/bm.js';
+import '../../carte/carte.js';
 import '../../../lib/routing.js';
 
 import { Template } from 'meteor/templating';
@@ -38,5 +39,10 @@ Template.app_body.events({
     'click #profil' (event) {
         event.preventDefault();
         FlowRouter.go('profil');
+    },
+
+    'click #carte' (event) {
+        event.preventDefault();
+        FlowRouter.go('carte');
     },
 });

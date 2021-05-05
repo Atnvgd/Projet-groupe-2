@@ -39,3 +39,10 @@ FlowRouter.route('/burgerMenu', {
         BlazeLayout.render('app_body', { main: 'burgerMenu' });
     }
 }); 
+
+FlowRouter.route('/carte', {
+    name: 'carte',
+    action(){
+        BlazeLayout.render('app_body', { main: 'carte' });
+    }
+}); 

@@ -45,4 +45,9 @@ Template.app_body.events({
         event.preventDefault();
         FlowRouter.go('carte');
     },
+    
+    'click #entrainements' (event) {
+        event.preventDefault();
+        FlowRouter.go('entrainements');
+    },
 });

@@ -45,4 +45,11 @@ FlowRouter.route('/carte', {
     action(){
         BlazeLayout.render('app_body', { main: 'carte' });
     }
+});
+
+FlowRouter.route('/entrainements', {
+    name: 'entrainements',
+    action(){
+        BlazeLayout.render('app_body', { main: 'entrainements' });
+    }
 }); 

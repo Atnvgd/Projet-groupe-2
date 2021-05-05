@@ -8,8 +8,8 @@ import '../../burgerMenu/bm.js';
 import '../../carte/carte.js';
 import '../../connection/connection.js';
 import '../../../lib/routing.js';
-import '../../entrainements/entrainements.js';
-import '../../connection/connection.js';
+
+
 
 
 import { Template } from 'meteor/templating';
@@ -50,9 +50,9 @@ Template.app_body.events({
         FlowRouter.go('carte');
     },
 
-    'click #connexion' (event) {
+    'click #connection' (event) {
         event.preventDefault();
-        FlowRouter.go('connexion');
+        FlowRouter.go('connection');
     },
     
 });

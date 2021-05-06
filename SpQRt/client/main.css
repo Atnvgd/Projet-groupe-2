@@ -58,3 +58,9 @@ body {
   padding: 5px 10px;
   cursor: pointer;
 }
+
+.boutonEntrainements {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}

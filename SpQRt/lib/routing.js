@@ -60,3 +60,10 @@ FlowRouter.route('/creercompte', {
         BlazeLayout.render('app_body', { main: 'creercompte' });
     }
 }); 
+
+FlowRouter.route('/exercice1', {
+    name: 'exercice1',
+    action(){
+        BlazeLayout.render('app_body', { main: 'exercice1' });
+    }
+}); 

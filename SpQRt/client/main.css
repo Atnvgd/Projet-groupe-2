@@ -64,3 +64,8 @@ body {
   height: 200px;
   border-radius: 10px;
 }
+
+.site {
+  font-size: 0.5em;
+  color:blue;
+}

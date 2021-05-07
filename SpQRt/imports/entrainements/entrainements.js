@@ -1,8 +1,8 @@
 import './entrainements.html';
 
-import '../entrainements/exercice1/exercice1.js';
-import '../entrainements/exercice2/exercice2.js';
-import '../entrainements/exercice3/exercice3.js';
+import './exercice1/exercice1.js';
+import './exercice2/exercice2.js';
+import './exercice3/exercice3.js';
 
 Template.app_body.events({
     'click #exercice1' (event) {

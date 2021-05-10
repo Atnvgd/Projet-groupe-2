@@ -88,3 +88,24 @@ FlowRouter.route('/exercice3', {
         BlazeLayout.render('app_body', { main: 'exercice3' });
     }
 });
+
+FlowRouter.route('/exercice4', {
+    name: 'exercice4',
+    action(){
+        BlazeLayout.render('app_body', { main: 'exercice4' });
+    }
+});
+
+FlowRouter.route('/exercice5', {
+    name: 'exercice5',
+    action(){
+        BlazeLayout.render('app_body', { main: 'exercice5' });
+    }
+});
+
+FlowRouter.route('/exercice6', {
+    name: 'exercice6',
+    action(){
+        BlazeLayout.render('app_body', { main: 'exercice6' });
+    }
+});

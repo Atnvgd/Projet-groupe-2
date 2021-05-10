@@ -4,6 +4,7 @@ import './exercice1/exercice1.js';
 import './exercice2/exercice2.js';
 import './exercice3/exercice3.js';
 import './exercice4/exercice4.js';
+import './exercice5/exercice5.js';
 
 Template.app_body.events({
     'click #exercice1' (event) {
@@ -24,5 +25,10 @@ Template.app_body.events({
     'click #exercice4' (event) {
         event.preventDefault();
         FlowRouter.go('exercice4');
+    },
+
+    'click #exercice5' (event) {
+        event.preventDefault();
+        FlowRouter.go('exercice5');
     },
 });

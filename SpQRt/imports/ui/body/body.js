@@ -2,9 +2,14 @@ import './body.html';
 import '../../burgerMenu/bm.js';
 import '../../connection/connection.js';
 import '../../creercompte/creercompte.js';
+import '../../ouverture/ouverture.js';
 import '../../../lib/routing.js';
 
 import { Template } from 'meteor/templating';
+
+Template.app_body.helpers({
+    utilisateur: () => Meteor.user().username,
+});
 
 Template.app_body.events({
 
@@ -18,9 +23,10 @@ Template.app_body.events({
         FlowRouter.go('connexion');
     },
 
-    'click #connexion' (event) {
+    'click #logout' (event) {
         event.preventDefault();
-        FlowRouter.go('connexion');
+        Meteor.logout();
+        FlowRouter.go('connexion')
     },
     
 });

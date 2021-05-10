@@ -2,9 +2,13 @@
 
   <button class="burgerMenu" id="burgerMenu">-</button>
   <button class="home" id="home">Home</button>
+  
+  {{#if currentUser}}
+  <button class="home" id="logout">Se déconnecter</button>
+  {{else}}
 
+  {{/if}}
   <h1 class="SpQRt">SpQRt</h1>
-
   {{> Template.dynamic template=main}}
   
 </template>

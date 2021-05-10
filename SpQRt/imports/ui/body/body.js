@@ -18,11 +18,6 @@ Template.app_body.events({
         FlowRouter.go('burgerMenu');
     },
 
-    'click #home' (event) {
-        event.preventDefault();
-        FlowRouter.go('connexion');
-    },
-
     'click #logout' (event) {
         event.preventDefault();
         Meteor.logout();

@@ -15,9 +15,7 @@ Template.creercompte.events({
         let mail = document.getElementById('email').value;
         let mdp = document.getElementById('password').value;
         let mdp2 = document.getElementById('password2').value;
-        let pUser = document.getElementById('pUser');
-        let pMail = document.getElementById('pMail');
-        let pMdp = document.getElementById('pMdp');
+        let pMessage = document.getElementById('pMessage');
         
         if (nom != '' && mdp != '' && mail != '') {
             if (mdp == mdp2) {
@@ -36,21 +34,15 @@ Template.creercompte.events({
                     });
                 } else{
                     event.preventDefault();
-                    pMdp.innerHTML = 'Mot de passe trop court!';
-                    pMail.innerHTML = '';
-                    pUser.innerHTML = '';
+                    pMessage.innerHTML = 'Mot de passe trop court!';
                 }
             } else{
                 event.preventDefault();
-                pMdp.innerHTML = 'Vos mots de passe ne correspondent pas!';
-                pMail.innerHTML = '';
-                pUser.innerHTML = '';
+                pMessage.innerHTML = 'Vos mots de passe ne correspondent pas!';
             }
         } else{
             event.preventDefault();
-            pMdp.innerHTML = 'Veuillez remplir les champs!';
-            pMail.innerHTML = 'Veuillez remplir les champs!';
-            pUser.innerHTML = 'Veuillez remplir les champs!';
+            pMessage.innerHTML = 'Veuillez remplir les champs!';
         }
     },
 

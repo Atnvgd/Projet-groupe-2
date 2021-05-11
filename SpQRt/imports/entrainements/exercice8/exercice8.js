@@ -1,0 +1,1 @@
+import './exercice8.html';

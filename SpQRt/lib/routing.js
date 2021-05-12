@@ -137,3 +137,10 @@ FlowRouter.route('/exercice10', {
         BlazeLayout.render('app_body', { main: 'exercice10' });
     }
 });
+
+FlowRouter.route('/ajouterentrain', {
+    name: 'ajouterentrain',
+    action(){
+        BlazeLayout.render('app_body', { main: 'ajouterentrain' });
+    }
+});

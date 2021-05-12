@@ -15,11 +15,15 @@ Template.creercompte.events({
         let mail = document.getElementById('email').value;
         let mdp = document.getElementById('password').value;
         let mdp2 = document.getElementById('password2').value;
+        let age = document.getElementById('age').value;
+        let numTel = document.getElementById('telephone').value;
+        let sportFav = document.getElementById('sport-fav').value;
         let pMessage = document.getElementById('pMessage');
         
-        if (nom != '' && mdp != '' && mail != '') {
+        if (nom!='' && mdp!='' && mail!='' && age!=''&& numTel!='' && sportFav!='') {
             if (mdp == mdp2) {
                 if(mdp.length > 5) {
+                    if (age > 15)  {
                     Accounts.createUser({
                         username: nom,
                         password: mdp,
@@ -32,6 +36,10 @@ Template.creercompte.events({
                             setTimeout(() => FlowrouterGo('apropos'), 200);
                         }
                     });
+                    } else{
+                        event.preventDefault();
+                        pMessage.innerHTML = 'Vous devez avoir 16ans pour utiliser SpQRt!';
+                    }
                 } else{
                     event.preventDefault();
                     pMessage.innerHTML = 'Mot de passe trop court!';

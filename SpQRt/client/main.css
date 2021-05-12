@@ -13,6 +13,14 @@ body {
   cursor: pointer;
 }
 
+.btn-entrain-map {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
 .home {
   float: right;
   background-color: white;

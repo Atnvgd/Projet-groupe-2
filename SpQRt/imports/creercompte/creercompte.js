@@ -28,6 +28,11 @@ Template.creercompte.events({
                         username: nom,
                         password: mdp,
                         email: mail,
+                        profile: {
+                            age: age,
+                            telephone: numTel,
+                            sportFav: sportFav,
+                        }
                     }, 
                     (error) => {
                         if (error) {

@@ -1,12 +1,12 @@
 <template name="profil">
-    <p><b>Antoine Vigand</b></p>
+    <p><b>{{ utilisateur }}</b></p>
     <ul>
-      <li> E-mail: <a href="mailto:antoine.vigand@gmail.com">antoine.vigand@unil.ch</a></li>
+      <li> E-mail: {{ email }}</li>
       <br>
-      <li>Téléphone: +41 78 751 53 06</li>
+      <li>Téléphone: {{ telephone }}</li>
       <br>
-      <li>Age: 21 ans</li>
+      <li>Age: {{ age }}</li>
       <br>
-      <li>Sports Favoris: course à pied, football</li>
+      <li>Sports Favoris: {{ sportFav }}</li>
     </ul>
 </template>

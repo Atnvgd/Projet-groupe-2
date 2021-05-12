@@ -47,10 +47,10 @@ FlowRouter.route('/burgerMenu', {
     }
 }); 
 
-FlowRouter.route('/carte', {
-    name: 'carte',
+FlowRouter.route('/map', {
+    name: 'map',
     action(){
-        BlazeLayout.render('app_body', { main: 'carte' });
+        BlazeLayout.render('app_body', { main: 'map' });
     }
 });
 

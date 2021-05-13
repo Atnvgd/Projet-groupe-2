@@ -5,7 +5,7 @@ import '../recherche/recherche.js';
 import '../contact/contact.js';
 import '../apropos/apropos.js';
 import '../profil/profil.js';
-import '../carte/carte.js';
+import '../map/map.js';
 
 Template.app_body.events({
     'click #entrainements' (event) {
@@ -33,8 +33,8 @@ Template.app_body.events({
         FlowRouter.go('profil');
     },
 
-    'click #carte' (event) {
+    'click #map' (event) {
         event.preventDefault();
-        FlowRouter.go('carte');
+        FlowRouter.go('map');
     },
 });

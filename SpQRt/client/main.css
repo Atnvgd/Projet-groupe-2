@@ -26,11 +26,23 @@ body {
   margin: auto;
   height: 40px;
   border-radius: 600px;
-  background-color: white;
+  background-color:#ffee00;
   border: 2px solid black;
   color: black;
   padding: 5px 12px;
   cursor: pointer;
+}
+
+.btn-add-entrain {
+  background-color:#F0A029;
+  border: 2px solid black;
+  color: black;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.choix-entrain {
+  text-align: center;
 }
 
 .home {

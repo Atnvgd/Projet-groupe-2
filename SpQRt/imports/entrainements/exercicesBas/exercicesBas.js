@@ -3,6 +3,7 @@ import './exercicesBas.html';
 import './exercice1/exercice1.js';
 import './exercice3/exercice3.js';
 import './exercice7/exercice7.js';
+import './exercice9/exercice9.js';
 
 Template.app_body.events({
 
@@ -19,5 +20,10 @@ Template.app_body.events({
     'click #exercice7' (event) {
         event.preventDefault();
         FlowRouter.go('exercice7');
+    },
+
+    'click #exercice9' (event) {
+        event.preventDefault();
+        FlowRouter.go('exercice9');
     },
 });

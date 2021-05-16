@@ -151,3 +151,10 @@ FlowRouter.route('/exercicesHaut', {
         BlazeLayout.render('app_body', { main: 'exercicesHaut' });
     }
 });
+
+FlowRouter.route('/exercicesBas', {
+    name: 'exercicesBas',
+    action(){
+        BlazeLayout.render('app_body', { main: 'exercicesBas' });
+    }
+});

@@ -1,6 +1,5 @@
 import './entrainements.html';
 
-import './exercice2/exercice2.js';
 import './exercice3/exercice3.js';
 import './exercice4/exercice4.js';
 import './exercice5/exercice5.js';
@@ -15,11 +14,6 @@ import './exercicesBas/exercicesBas.js';
 import './exercicesTout/exercicesTout.js';
 
 Template.app_body.events({
-
-    'click #exercice2' (event) {
-        event.preventDefault();
-        FlowRouter.go('exercice2');
-    },
 
     'click #exercice3' (event) {
         event.preventDefault();

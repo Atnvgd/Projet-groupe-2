@@ -144,3 +144,10 @@ FlowRouter.route('/ajouterentrain', {
         BlazeLayout.render('app_body', { main: 'ajouterentrain' });
     }
 });
+
+FlowRouter.route('/exercicesHaut', {
+    name: 'exercicesHaut',
+    action(){
+        BlazeLayout.render('app_body', { main: 'exercicesHaut' });
+    }
+});

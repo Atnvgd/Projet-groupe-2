@@ -172,3 +172,10 @@ FlowRouter.route('/exercice11', {
         BlazeLayout.render('app_body', { main: 'exercice11' });
     }
 });
+
+FlowRouter.route('/exercice12', {
+    name: 'exercice12',
+    action(){
+        BlazeLayout.render('app_body', { main: 'exercice12' });
+    }
+});

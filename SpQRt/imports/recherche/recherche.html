@@ -5,15 +5,65 @@
     <div class="recherche">
       <header>
         <h3 class="recherche">Recherche</h3>
+        <petitTexte2 class="petitTexte2">Veillez à écrire votre recherche en minuscules</petitTexte2>
+        <br>
+        <br>
+        <br>
   
-        <form class="new-recherche">
-          <input type="text" name="text" placeholder="Que cherchez-vous?" />
-          <button>Go</button>
-        </form>
-  
+          <input class="new-recherche" id="inputTexte" type="text" name="text" placeholder="Que cherchez-vous?" />
+          <button class="new-recherche" id="go">Go</button>
+          <br>
+          <br>
+          <p id="zoneReponse"></p> 
+          <br>
+          <button name="haut" id="exercicesHaut" class="boutonCache1">1</button>
+          <button name="bas" id="exercicesBas" class="boutonCache2">2</button> 
+          <button name="tout" id="exercicesTout" class="boutonCache3">3</button>
+          <button name="carte" id="map" class="boutonCache4">4</button>
+          <button name="entrain" id="entrainements" class="boutonCache5">5</button>
+          
       </header>
 
       
     </div>
+
+    <script>
+      const input = document.getElementById("inputTexte");
+      const bouton = document.getElementById("go");
+      const leP = document.getElementById("zoneReponse");
+      
+
+      bouton.addEventListener('click', surClic);
+
+      function surClic() {
+
+        const contenu = input.value;
+
+        if (contenu == "") {
+          leP.innerHTML = "Veuillez recherchez quelque chose";
+        } else if (contenu == "bras" | contenu == "dos" | contenu == "abdominaux"
+                  | contenu == "épaules" | contenu == "haut du corps" | contenu == "haut") {
+          leP.innerHTML = "Le bouton numéro 1 pourrait vous intéresser";
+        } else if (contenu == "jambe" | contenu == "jambes" | contenu == "cuisses" 
+                  |  contenu == "cuisse" | contenu == "mollet" | contenu == "mollets" 
+                  | contenu == "bas du corps" | contenu == "bas") {
+                      leP.innerHTML = "Le bouton numéro 2 pourrait vous intéresser";
+        } else if (contenu == "entrainement" | contenu == "entrainements" | contenu == "exercice" 
+                  |  contenu == "exercices" | contenu == "sport" | contenu == "muscles") {
+                      leP.innerHTML = "Le bouton numéro 5 pourrait vous intéresser";
+        } else if (contenu == "tout le corps" | contenu == "muscles corps" | contenu == "tous les muscles" 
+                  |  contenu == "tous muscles" |  contenu == "tout" |  contenu == "tous" ) {
+                      leP.innerHTML = "Le bouton numéro 3 pourrait vous intéresser";
+        } else if (contenu == "carte" | contenu == "lieux sport" | contenu == "lieu sport" 
+                  |  contenu == "lieu" | contenu == "endroits sport" | contenu == "endroit sport" 
+                  | contenu == "endroit" | contenu == "map" | contenu == "lieux"
+                  | contenu == "endroits" ) {
+                      leP.innerHTML = "Le bouton numéro 4 pourrait vous intéresser";
+        } else {
+          leP.innerHTML = "Votre recherche n'a rien donné. Veuillez essayer une autre recherche ou vérifiez l'orthographe"
+        }
+      }
+
+    </script>
 
   </template>

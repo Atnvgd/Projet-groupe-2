@@ -7,6 +7,7 @@
     <p><U>Quels muscles ?</U> Les mollets, les cuisses, les épaules, les muscles du poignet</p>
     <p>Le plus ? Cet exercice entraînera également votre système cardiaque</p>
     <p><U>Durée :</U> entre 5 et 30 min (selon votre forme physique)</p>
+    <p><U>Difficulté :</U> 2/5</p>
     <p>
         Sautez à la corde pendant 5 à 15 minutes d'affilée (en fonction de votre niveau). <br>
         Vous pouvez sauter sur place, en avançant, sur un pied, sur deux pieds, etc. <br>
@@ -19,8 +20,14 @@
         <p><b>Avis sur l'exercice:</b></p>
         <textarea cols="40" rows="5" placeholder="Commentaire..."></textarea>
     <br>
-            <label for="note">Note sur 10:</label>
-            <input id="note" type="number" name="note" min=0 max=10>
+    <label for="note">Note sur 5 (1 = mauvais / 5 = excellent):</label>
+    <select id="monselect">
+        <option value="valeur1">1</option>
+        <option value="valeur2">2</option>
+        <option value="valeur3">3</option>
+        <option value="valeur4">4</option>
+        <option value="valeur5" selected>5</option>
+      </select>
     <br>
     <br>
             <button class="btn-generaux">Publier</button>

@@ -6,6 +6,7 @@
     <h4>L'exercice de la chaise</h4>
     <p><U>Quels muscles ?</U> Les cuisses</p>
     <p><U>Durée :</U> entre 30 sec et 1 min</p>
+    <p><U>Difficulté :</U> 2/5</p>
     <p>
         Placez-vous le dos appuyé contre un mur. <br>
         Veillez à garder vos pieds bien sur le sol. <br>
@@ -19,8 +20,14 @@
     <p><b>Avis sur l'exercice:</b></p>
     <textarea cols="40" rows="5" placeholder="Commentaire..."></textarea>
 <br>
-        <label for="note">Note sur 10:</label>
-        <input id="note" type="number" name="note" min=0 max=10>
+<label for="note">Note sur 5 (1 = mauvais / 5 = excellent):</label>
+<select id="monselect">
+    <option value="valeur1">1</option>
+    <option value="valeur2">2</option>
+    <option value="valeur3">3</option>
+    <option value="valeur4">4</option>
+    <option value="valeur5" selected>5</option>
+  </select>
 <br>
 <br>
         <button class="btn-generaux">Publier</button>

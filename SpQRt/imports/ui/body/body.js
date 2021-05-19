@@ -7,6 +7,8 @@ import '../../../lib/routing.js';
 
 import { Template } from 'meteor/templating';
 
+import { Commentaires } from '../api/commentaires.js';
+
 Template.app_body.helpers({
     utilisateur: () => Meteor.user().username,
 });

@@ -6,11 +6,123 @@ body {
 }
 
 .burgerMenu {
-  background-color: white;
-  border: 2px solid black;
-  color: black;
-  padding: 5px 12px;
+  background-color: #eee;
+  color: #444;
   cursor: pointer;
+  border: 2px solid black;
+  width: 30px;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  z-index: 1;
+}
+
+.button-recherche {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 110px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  margin-top: 40px;
+  vertical-align:top;
+  z-index: 1;
+}
+
+.button-map {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 110px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  margin-top: 40px;
+  vertical-align:top;
+  z-index: 1;
+}
+
+.button-entrainements {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 110px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  margin-top: 90px;
+  vertical-align:top;
+  z-index: 1;
+}
+
+.button-profil {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 110px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  margin-top: 140px;
+  vertical-align:top;
+  z-index: 1;
+}
+
+.button-contact {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 110px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  margin-top: 190px;
+  vertical-align:top;
+  z-index: 1;
+}
+
+.button-apropos {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 110px;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  position: fixed;
+  margin-top: 240px;
+  vertical-align:top;
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible{
+  padding: 0 18px;
+  background-color: pink;
+  display: none;
+  overflow: hidden;
+}
+
+.btn-group button{
+  padding: 0 18px;
+  background-color: pink;
+  display: none;
+  overflow: hidden;
 }
 
 .btn-entrain {
@@ -58,13 +170,13 @@ body {
   text-align: center;
 }
 
-.btn-group button {
+/* .btn-group button {
   background-color: white;
   border: 2px solid black;
   color: black;
   padding: 10px 24px;
   cursor: pointer;
-}
+} */
 
 .contenu {
   text-align: center;

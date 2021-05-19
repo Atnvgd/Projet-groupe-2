@@ -75,7 +75,7 @@ body {
 }
 
 .new-recherche {
-  text-align: center;
+  float: right;
 }
 
 .petitTexte {
@@ -119,46 +119,6 @@ body {
   border: 2px solid black;
   color: black;
   padding: 10px 24px;
-  cursor: pointer;
-}
-
-.boutonCache1 {
-  background-color: gold;
-  border: 2px solid black;
-  color: black;
-  padding: 5px 12px;
-  cursor: pointer;
-}
-
-.boutonCache2 {
-  background-color: orange;
-  border: 2px solid black;
-  color: black;
-  padding: 5px 12px;
-  cursor: pointer;
-}
-
-.boutonCache3 {
-  background-color: darkorange;
-  border: 2px solid black;
-  color: black;
-  padding: 5px 12px;
-  cursor: pointer;
-}
-
-.boutonCache4 {
-  background-color: orangered;
-  border: 2px solid black;
-  color: black;
-  padding: 5px 12px;
-  cursor: pointer;
-}
-
-.boutonCache5 {
-  background-color: red;
-  border: 2px solid black;
-  color: black;
-  padding: 5px 12px;
   cursor: pointer;
 }
 

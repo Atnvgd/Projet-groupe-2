@@ -1,5 +1,5 @@
 <template name="map">
-  <p><b>Rechercher un entrainement dans la carte :</b></p>
+  <p><b>Rechercher un entraînement dans la carte :</b></p>
   <div class="map-container">
     {{#unless geolocationError}}
       {{> googleMap name="map" options=mapOptions}}
@@ -8,6 +8,6 @@
     {{/unless}}
   </div>
   <br>
-  <p><b>Rechercher un entrainement existant sur SpQRt :</b></p>
+  <p><b>Rechercher un entraînement existant sur SpQRt :</b></p>
   <button id="entrainements" class="btn-entrain">Entraînements</button>
 </template>

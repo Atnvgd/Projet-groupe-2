@@ -31,5 +31,6 @@ Template.app_body.events({
     'click #map' (event) {
         event.preventDefault();
         FlowRouter.go('map');
+
     },
 });

@@ -35,6 +35,7 @@ if (Meteor.isClient) {
         // Center and zoom the map view onto the current position.
         map.instance.setCenter(marker.getPosition());
         map.instance.setZoom(MAP_ZOOM);
+        //ouvrirQR(map); --> Lié à la base de données du bas là
       });
     });
   });
@@ -56,3 +57,13 @@ if (Meteor.isClient) {
     }
   });
 }
+//Base de données avec les QR et faire un forEach
+// function ouvrirQR (map) {
+//   marker = new google.maps.Marker({
+//     // Je distingue le marqueur de la position actuelle de la position des oeuvres
+//     icon : 'http://maps.google.com/mapfiles/marker_green.png', 
+//     position: new google.maps.LatLng(oeuvre.lat, oeuvre.lng),
+//     map: map.instance,
+//   });
+// }
+

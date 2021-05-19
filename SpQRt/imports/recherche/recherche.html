@@ -83,6 +83,10 @@
             FlowRouter.go('map');
             leP.innerHTML = "";
 
+        } else if (contenu == "pompes" | contenu == "pompe" | contenu == "Pompe"
+                  | contenu == "Pompes" | contenu == "POMPE" | contenu == "POMPES"){
+            FlowRouter.go('exercice10');
+            leP.innerHTML = "";   
         } else {
           leP.innerHTML = "Votre recherche n'a rien donné. Veuillez essayer une autre recherche ou vérifiez l'orthographe";
         }

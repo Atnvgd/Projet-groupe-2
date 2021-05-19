@@ -22,8 +22,6 @@ Template.app_body.helpers({
 Template.app_body.events({
 
     'click #burgerMenu' (e) {
-        let groupe1 = document.getElementById("recherche")
-        groupe1.classList.toggle('hidden')
 
         let groupe2 = document.getElementById("map")
         groupe2.classList.toggle('visible')

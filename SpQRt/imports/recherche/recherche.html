@@ -7,8 +7,6 @@
           <button class="new-recherche" id="go">Go</button>
           <br>
           <p class="p-new-recherche" id="zoneReponse"></p>
-          <br> 
-          <br>
       </header>  
     </div>
 
@@ -86,7 +84,14 @@
         } else if (contenu == "pompes" | contenu == "pompe" | contenu == "Pompe"
                   | contenu == "Pompes" | contenu == "POMPE" | contenu == "POMPES"){
             FlowRouter.go('exercice10');
-            leP.innerHTML = "";   
+            leP.innerHTML = ""; 
+              
+          } else if (contenu == "jumping jacks" | contenu == "jumping jacks" | contenu == "Jumping Jacks" 
+                  |  contenu == "Jumping jacks" | contenu == "Jumping jack" | contenu == "JUMPING JACK" 
+                  | contenu == "JUMPING JACKS") {
+            FlowRouter.go('exercice2');
+            leP.innerHTML = "";
+
         } else {
           leP.innerHTML = "Votre recherche n'a rien donné. Veuillez essayer une autre recherche ou vérifiez l'orthographe";
         }

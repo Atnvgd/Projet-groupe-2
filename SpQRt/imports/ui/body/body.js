@@ -24,19 +24,19 @@ Template.app_body.events({
     'click #burgerMenu' (e) {
 
         let groupe2 = document.getElementById("map")
-        groupe2.classList.toggle('hidden')
+        groupe2.classList.toggle('visible')
 
         let groupe3 = document.getElementById("entrainements")
-        groupe3.classList.toggle('hidden')
+        groupe3.classList.toggle('visible')
 
         let groupe4 = document.getElementById("profil")
-        groupe4.classList.toggle('hidden')
+        groupe4.classList.toggle('visible')
 
         let groupe5 = document.getElementById("contact")
-        groupe5.classList.toggle('hidden')
+        groupe5.classList.toggle('visible')
 
         let groupe6 = document.getElementById("apropos")
-        groupe6.classList.toggle('hidden')
+        groupe6.classList.toggle('visible')
     },
         
     'click #logout' (event) {

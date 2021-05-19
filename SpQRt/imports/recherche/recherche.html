@@ -6,8 +6,9 @@
           <input class="new-recherche" id="inputTexte" type="text" name="text" placeholder="Que cherchez-vous?" />
           <button class="new-recherche" id="go">Go</button>
           <br>
+          <p class="p-new-recherche" id="zoneReponse"></p>
+          <br> 
           <br>
-          <p id="zoneReponse"></p> 
       </header>  
     </div>
 
@@ -27,24 +28,28 @@
         } else if (contenu == "bras" | contenu == "dos" | contenu == "abdominaux"
                   | contenu == "épaules" | contenu == "haut du corps" | contenu == "haut") {
             FlowRouter.go('exercicesHaut');
+            leP.innerHTML = "";
         } else if (contenu == "jambe" | contenu == "jambes" | contenu == "cuisses" 
                   |  contenu == "cuisse" | contenu == "mollet" | contenu == "mollets" 
                   | contenu == "bas du corps" | contenu == "bas") {
             FlowRouter.go('exercicesBas');
+            leP.innerHTML = "";
         } else if (contenu == "entrainement" | contenu == "entrainements" | contenu == "exercice" 
                   |  contenu == "exercices" | contenu == "sport" | contenu == "muscles") {
             FlowRouter.go('entrainements');
+            leP.innerHTML = "";
         } else if (contenu == "tout le corps" | contenu == "muscles corps" | contenu == "tous les muscles" 
                   |  contenu == "tous muscles" |  contenu == "tout" |  contenu == "tous" ) {
             FlowRouter.go('exercicesTout');
+            leP.innerHTML = "";
         } else if (contenu == "carte" | contenu == "lieux sport" | contenu == "lieu sport" 
                   |  contenu == "lieu" | contenu == "endroits sport" | contenu == "endroit sport" 
                   | contenu == "endroit" | contenu == "map" | contenu == "lieux"
                   | contenu == "endroits" ) {
             FlowRouter.go('map');
+            leP.innerHTML = "";
         } else {
           leP.innerHTML = "Votre recherche n'a rien donné. Veuillez essayer une autre recherche ou vérifiez l'orthographe";
-          leP.style.backgroundColor = "red";
         }
       }
 

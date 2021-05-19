@@ -111,13 +111,6 @@ body {
   display: none;
 }
 
-.visible{
-  padding: 0 18px;
-  background-color: pink;
-  display: none;
-  overflow: hidden;
-}
-
 .btn-group button{
   padding: 0 18px;
   background-color: pink;

@@ -24,21 +24,21 @@ Template.app_body.events({
     'click #burgerMenu' (e) {
 
         let groupe2 = document.getElementById("map")
-        groupe2.classList.toggle('visible')
+        groupe2.classList.toggle('hidden')
 
         let groupe3 = document.getElementById("entrainements")
-        groupe3.classList.toggle('visible')
+        groupe3.classList.toggle('hidden')
 
         let groupe4 = document.getElementById("profil")
-        groupe4.classList.toggle('visible')
+        groupe4.classList.toggle('hidden')
 
         let groupe5 = document.getElementById("contact")
-        groupe5.classList.toggle('visible')
+        groupe5.classList.toggle('hidden')
 
         let groupe6 = document.getElementById("apropos")
-        groupe6.classList.toggle('visible')
+        groupe6.classList.toggle('hidden')
     },
-
+        
     'click #logout' (event) {
         event.preventDefault();
         Meteor.logout();

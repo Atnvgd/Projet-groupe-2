@@ -13,11 +13,6 @@ Template.app_body.events({
         FlowRouter.go('entrainements');
     },
 
-    'click #recherche' (event) {
-        event.preventDefault();
-        FlowRouter.go('recherche');
-    },
-
     'click #contact' (event) {
         event.preventDefault();
         FlowRouter.go('contact');

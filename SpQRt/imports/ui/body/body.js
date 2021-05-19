@@ -21,10 +21,6 @@ Template.app_body.helpers({
 
 Template.app_body.events({
 
-        // 'click #burgerMenu' function(e,t){
-    //     t.$('.nav').toggleClass( "hidden" )
-    // },
-
     'click #burgerMenu' (e) {
         let groupe1 = document.getElementById("recherche")
         groupe1.classList.toggle('hidden')

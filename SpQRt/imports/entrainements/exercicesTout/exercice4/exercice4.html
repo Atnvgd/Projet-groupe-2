@@ -6,6 +6,7 @@
     <h4>Un entraînement circuit training</h4>
     <p><U>Quels muscles ?</U> Une grande partie des muscles du corps</p>
     <p><U>Durée :</U> environ 5 min le tour </p>
+    <p><U>Difficulté :</U> 4/5</p>
     <p>
         Suivez les exercices proposés sur l'image. <br>
         Entre chaque exercice vous pouvez prendre 15 secondes de repos. <br>
@@ -17,8 +18,14 @@
         <p><b>Avis sur l'exercice:</b></p>
         <textarea cols="40" rows="5" placeholder="Commentaire..."></textarea>
     <br>
-            <label for="note">Note sur 10:</label>
-            <input id="note" type="number" name="note" min=0 max=10>
+    <label for="note">Note sur 5 (1 = mauvais / 5 = excellent):</label>
+    <select id="monselect">
+        <option value="valeur1">1</option>
+        <option value="valeur2">2</option>
+        <option value="valeur3">3</option>
+        <option value="valeur4">4</option>
+        <option value="valeur5" selected>5</option>
+      </select>
     <br>
     <br>
             <button class="btn-generaux">Publier</button>

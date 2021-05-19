@@ -4,7 +4,7 @@
 <br>
     <h2>Ajouter un entrainement</h2> 
 
-    <h4><U>Quelle parties du corps est-ce que ça travaille ?</U></h4>
+    <h4><U>Quelle parties du corps est-ce que ça travaille ? *</U></h4>
     <input type="checkbox" id="haut du corps" name="haut du corps">
     <label for="haut du corps">Haut du corps</label>
     <input type="checkbox" id="bas du corps" name="bas du corps">
@@ -17,13 +17,31 @@
     <textarea cols="30" rows="2" placeholder=""></textarea>
 <br>
 <br>
-    <h4><U>Durée de l'exercice (max. 60 min):</U></h4>
-    <label for="durée"></label>
+    <h4><U>Durée de l'exercice : *</U></h4>
+    <label for="durée" required></label>
     <input id="durée" type="number" name="durée" min=0 max=60> minutes
+    <input id="durée" type="number" name="durée" min=0 max=60> secondes
 <br>
 <br>
-    <h4><U>Décrire l'exercice :</U></h4>
-    <textarea cols="60" rows="15" placeholder=""></textarea>
+    <h4><U>Difficulté de l'exercice (1 = le plus simple / 5 = le plus dur) : *</U></h4>
+        <input type="checkbox" id="1" name="haut du corps">
+        <label for="1">1</label>
+        <br>
+        <input type="checkbox" id="2" name="2">
+        <label for="2">2</label>
+        <br>
+        <input type="checkbox" id="3" name="3">
+        <label for="3">3</label>
+        <br>
+        <input type="checkbox" id="4" name="4">
+        <label for="4">4</label>
+        <br>
+        <input type="checkbox" id="5" name="5">
+        <label for="5">5</label>
+<br>
+<br>
+    <h4><U>Décrire l'exercice : *</U></h4>
+    <textarea cols="60" rows="15" placeholder="" required></textarea>
 <br>
 <br>
     <h4><U>Ajouter des photos :</U></h4>

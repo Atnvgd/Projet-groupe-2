@@ -3,15 +3,10 @@
     <br>
     <div class="recherche">
       <header>
-        <h3 class="recherche">Recherche</h3>
-        <petitTexte2 class="petitTexte2">Veillez à écrire votre recherche en minuscules</petitTexte2>
-        <br>
-        <br>
           <input class="new-recherche" id="inputTexte" type="text" name="text" placeholder="Que cherchez-vous?" />
           <button class="new-recherche" id="go">Go</button>
           <br>
-          <br>
-          <p id="zoneReponse"></p> 
+          <p class="p-new-recherche" id="zoneReponse"></p>
       </header>  
     </div>
 
@@ -23,38 +18,82 @@
       bouton.addEventListener('click', surClic);
 
       function surClic() {
-        
-        event.preventDefault();
+
         const contenu = input.value;
 
         if (contenu == "") {
           leP.innerHTML = "Veuillez recherchez quelque chose";
+
         } else if (contenu == "bras" | contenu == "dos" | contenu == "abdominaux"
-                  | contenu == "épaules" | contenu == "haut du corps" | contenu == "haut") {
-            event.preventDefault();
+                  | contenu == "épaules" | contenu == "haut du corps" | contenu == "haut"
+                  | contenu == "Bras" | contenu == "Dos" | contenu == "Abdominaux"
+                  | contenu == "Epaules" | contenu == "Haut du corps" | contenu == "Haut"
+                  | contenu == "BRAS" | contenu == "DOS" | contenu == "ABDOMINAUX"
+                  | contenu == "EPAULES" | contenu == "HAUT DU CORPS" | contenu == "HAUT") {
             FlowRouter.go('exercicesHaut');
+            leP.innerHTML = "";
+
         } else if (contenu == "jambe" | contenu == "jambes" | contenu == "cuisses" 
                   |  contenu == "cuisse" | contenu == "mollet" | contenu == "mollets" 
-                  | contenu == "bas du corps" | contenu == "bas") {
-            event.preventDefault();
+                  | contenu == "bas du corps" | contenu == "bas"
+                  | contenu == "Jambe" | contenu == "Jambes" | contenu == "Cuisses" 
+                  |  contenu == "Cuisse" | contenu == "Mollet" | contenu == "Mollets" 
+                  | contenu == "Bas du corps" | contenu == "Bas"
+                  | contenu == "JAMBE" | contenu == "JAMBES" | contenu == "CUISSES" 
+                  |  contenu == "CUISSE" | contenu == "MOLLET" | contenu == "MOLLETS" 
+                  | contenu == "BAS DU CORPS" | contenu == "BAS") {
             FlowRouter.go('exercicesBas');
+            leP.innerHTML = "";
+
         } else if (contenu == "entrainement" | contenu == "entrainements" | contenu == "exercice" 
-                  |  contenu == "exercices" | contenu == "sport" | contenu == "muscles") {
-            event.preventDefault();
+                  |  contenu == "exercices" | contenu == "sport" | contenu == "muscles"
+                  | contenu == "Entrainement" | contenu == "Entrainements" | contenu == "Exercice" 
+                  |  contenu == "Exercices" | contenu == "Sport" | contenu == "Muscles"
+                  | contenu == "ENTRAINEMENT" | contenu == "ENTRAINEMENTS" | contenu == "EXERCICE" 
+                  |  contenu == "EXERCICES" | contenu == "SPORT" | contenu == "MUSCLES") {
             FlowRouter.go('entrainements');
+            leP.innerHTML = "";
         } else if (contenu == "tout le corps" | contenu == "muscles corps" | contenu == "tous les muscles" 
                   |  contenu == "tous muscles" |  contenu == "tout" |  contenu == "tous" ) {
-            event.preventDefault();
             FlowRouter.go('exercicesTout');
+            leP.innerHTML = "";
+
+        } else if (contenu == "tout le corps" | contenu == "muscles corps" | contenu == "tous les muscles" 
+                  |  contenu == "tous muscles" |  contenu == "tout" |  contenu == "tous"
+                  | contenu == "Tout le corps" | contenu == "Muscles corps" | contenu == "Tous les muscles" 
+                  |  contenu == "Tous muscles" |  contenu == "Tout" |  contenu == "Tous"
+                  | contenu == "TOUT LE CORPS" | contenu == "MUSCLES CORPS" | contenu == "TOUS LES MUSCLES" 
+                  |  contenu == "TOUS MUSCLES" |  contenu == "TOUT" |  contenu == "TOUS" ) {
+            FlowRouter.go('exercicesTout');
+
         } else if (contenu == "carte" | contenu == "lieux sport" | contenu == "lieu sport" 
                   |  contenu == "lieu" | contenu == "endroits sport" | contenu == "endroit sport" 
                   | contenu == "endroit" | contenu == "map" | contenu == "lieux"
-                  | contenu == "endroits" ) {
-            event.preventDefault();
+                  | contenu == "endroits" 
+                  | contenu == "Carte" | contenu == "Lieux sport" | contenu == "Lieu sport" 
+                  |  contenu == "Lieu" | contenu == "Endroits sport" | contenu == "Endroit sport" 
+                  | contenu == "Endroit" | contenu == "Map" | contenu == "Lieux"
+                  | contenu == "Endroits"
+                  | contenu == "CARTE" | contenu == "LIEUX SPORT" | contenu == "LIEU SPORT" 
+                  |  contenu == "LIEU" | contenu == "ENDROITS SPORT" | contenu == "ENDROIT SPORT" 
+                  | contenu == "ENDROIT" | contenu == "MAP" | contenu == "LIEUX"
+                  | contenu == "ENDROITS") {
             FlowRouter.go('map');
+            leP.innerHTML = "";
+
+        } else if (contenu == "pompes" | contenu == "pompe" | contenu == "Pompe"
+                  | contenu == "Pompes" | contenu == "POMPE" | contenu == "POMPES"){
+            FlowRouter.go('exercice10');
+            leP.innerHTML = ""; 
+              
+          } else if (contenu == "jumping jacks" | contenu == "jumping jacks" | contenu == "Jumping Jacks" 
+                  |  contenu == "Jumping jacks" | contenu == "Jumping jack" | contenu == "JUMPING JACK" 
+                  | contenu == "JUMPING JACKS") {
+            FlowRouter.go('exercice2');
+            leP.innerHTML = "";
+
         } else {
-          event.preventDefault();
-          leP.innerHTML = "Votre recherche n'a rien donné. Veuillez essayer une autre recherche ou vérifiez l'orthographe"
+          leP.innerHTML = "Votre recherche n'a rien donné. Veuillez essayer une autre recherche ou vérifiez l'orthographe";
         }
       }
 

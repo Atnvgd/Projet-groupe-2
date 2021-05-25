@@ -23,20 +23,116 @@ Template.app_body.events({
 
     'click #burgerMenu' (e) {
 
-        let groupe2 = document.getElementById("map")
+        let groupe0 = document.getElementById("map")
+        groupe0.classList.toggle('visible')
+
+        let groupe1 = document.getElementById("entrainements")
+        groupe1.classList.toggle('visible')
+
+        let groupe2 = document.getElementById("profil")
         groupe2.classList.toggle('visible')
 
-        let groupe3 = document.getElementById("entrainements")
+        let groupe3 = document.getElementById("contact")
         groupe3.classList.toggle('visible')
 
-        let groupe4 = document.getElementById("profil")
+        let groupe4 = document.getElementById("apropos")
         groupe4.classList.toggle('visible')
 
-        let groupe5 = document.getElementById("contact")
-        groupe5.classList.toggle('visible')
+    },
 
-        let groupe6 = document.getElementById("apropos")
-        groupe6.classList.toggle('visible')
+    'click #map' (e) {
+
+        let groupe0 = document.getElementById("map")
+        groupe0.classList.toggle('visible')
+
+        let groupe1 = document.getElementById("entrainements")
+        groupe1.classList.toggle('visible')
+
+        let groupe2 = document.getElementById("profil")
+        groupe2.classList.toggle('visible')
+
+        let groupe3 = document.getElementById("contact")
+        groupe3.classList.toggle('visible')
+
+        let groupe4 = document.getElementById("apropos")
+        groupe4.classList.toggle('visible')
+
+    },
+
+    'click #entrainements' (e) {
+
+        let groupe0 = document.getElementById("map")
+        groupe0.classList.toggle('visible')
+
+        let groupe1 = document.getElementById("entrainements")
+        groupe1.classList.toggle('visible')
+
+        let groupe2 = document.getElementById("profil")
+        groupe2.classList.toggle('visible')
+
+        let groupe3 = document.getElementById("contact")
+        groupe3.classList.toggle('visible')
+
+        let groupe4 = document.getElementById("apropos")
+        groupe4.classList.toggle('visible')
+
+    },
+
+    'click #profil' (e) {
+
+        let groupe0 = document.getElementById("map")
+        groupe0.classList.toggle('visible')
+
+        let groupe1 = document.getElementById("entrainements")
+        groupe1.classList.toggle('visible')
+
+        let groupe2 = document.getElementById("profil")
+        groupe2.classList.toggle('visible')
+
+        let groupe3 = document.getElementById("contact")
+        groupe3.classList.toggle('visible')
+
+        let groupe4 = document.getElementById("apropos")
+        groupe4.classList.toggle('visible')
+
+    },
+
+    'click #contact' (e) {
+
+        let groupe0 = document.getElementById("map")
+        groupe0.classList.toggle('visible')
+
+        let groupe1 = document.getElementById("entrainements")
+        groupe1.classList.toggle('visible')
+
+        let groupe2 = document.getElementById("profil")
+        groupe2.classList.toggle('visible')
+
+        let groupe3 = document.getElementById("contact")
+        groupe3.classList.toggle('visible')
+
+        let groupe4 = document.getElementById("apropos")
+        groupe4.classList.toggle('visible')
+
+    },
+
+    'click #apropos' (e) {
+
+        let groupe0 = document.getElementById("map")
+        groupe0.classList.toggle('visible')
+
+        let groupe1 = document.getElementById("entrainements")
+        groupe1.classList.toggle('visible')
+
+        let groupe2 = document.getElementById("profil")
+        groupe2.classList.toggle('visible')
+
+        let groupe3 = document.getElementById("contact")
+        groupe3.classList.toggle('visible')
+
+        let groupe4 = document.getElementById("apropos")
+        groupe4.classList.toggle('visible')
+
     },
         
     'click #logout' (event) {
@@ -44,5 +140,8 @@ Template.app_body.events({
         Meteor.logout();
         FlowRouter.go('connexion')
     },
+
+    
+    
     
 });

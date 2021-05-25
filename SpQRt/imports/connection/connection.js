@@ -23,7 +23,6 @@ Template.connexion.events({
                   })
             } else{
                 Swal.fire({
-                    position: 'top-end',
                     icon: 'success',
                     title: 'Vous êtes connecté!',
                     showConfirmButton: false,

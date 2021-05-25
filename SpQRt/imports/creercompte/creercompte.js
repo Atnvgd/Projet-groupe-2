@@ -41,7 +41,12 @@ Template.creercompte.events({
                         if (error) {
                             alert(error.message);
                         } else{
-                            setTimeout(() => FlowrouterGo('apropos'), 200);
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Vous êtes connecté!',
+                                showConfirmButton: false,
+                                timer: 1400
+                              }) 
                         }
                     });
                     } else{

@@ -26,7 +26,7 @@ Template.connexion.events({
                     icon: 'success',
                     title: 'Vous êtes connecté!',
                     showConfirmButton: false,
-                    timer: 1200
+                    timer: 1400
                   }) 
             }
         });

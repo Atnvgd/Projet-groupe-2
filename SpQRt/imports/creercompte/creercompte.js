@@ -2,6 +2,8 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 import { Accounts } from 'meteor/accounts-base';
 import { meteor } from 'meteor/meteor';
+import Swal from 'sweetalert2'
+
 
 import './creercompte.html';
 
@@ -19,6 +21,7 @@ Template.creercompte.events({
         let numTel = document.getElementById('telephone').value;
         let sportFav = document.getElementById('sport-fav').value;
         let pMessage = document.getElementById('pMessage');
+        const Swal = require('sweetalert2')
         
         if (nom!='' && mdp!='' && mail!='' && age!=''&& numTel!='' && sportFav!='') {
             if (mdp == mdp2) {
@@ -43,19 +46,35 @@ Template.creercompte.events({
                     });
                     } else{
                         event.preventDefault();
-                        pMessage.innerHTML = 'Vous devez avoir 16ans pour utiliser SpQRt!';
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Oops...',
+                            text: 'Vous devez avoir 16ans pour utiliser SpQRt!',
+                          })
                     }
                 } else{
                     event.preventDefault();
-                    pMessage.innerHTML = 'Mot de passe trop court!';
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Mot de passe trop court!',
+                      })
                 }
             } else{
                 event.preventDefault();
-                pMessage.innerHTML = 'Vos mots de passe ne correspondent pas!';
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Vos mots de passe ne correspondent pas!',
+                  })
             }
         } else{
             event.preventDefault();
-            pMessage.innerHTML = 'Veuillez remplir les champs!';
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Veuillez remplir les champs!',
+              })
         }
     },
 

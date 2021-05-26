@@ -7,7 +7,7 @@ Template.body.helpers({
 });
 
 Template.exercice10.events({
-    'submit .new-coomentaire'(event) {
+    'submit .new-commentaire'(event) {
       // Prevent default browser form submit
       event.preventDefault();
   

@@ -136,9 +136,16 @@ Template.app_body.events({
     },
         
     'click #logout' (event) {
+        const Swal = require('sweetalert2')
         event.preventDefault();
         Meteor.logout();
         FlowRouter.go('connexion')
+        Swal.fire({
+            icon: 'info',
+            title: 'Vous êtes déconnecté!',
+            showConfirmButton: false,
+            timer: 1500
+          }) 
     },
 
     

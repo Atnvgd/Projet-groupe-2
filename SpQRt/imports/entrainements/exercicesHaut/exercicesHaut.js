@@ -1,9 +1,18 @@
+import { Exercices } from '../../api/exercices.js';
+
 import './exercicesHaut.html';
 import './exercice10/exercice10.js';
 import './exercice11/exercice11.js';
 import './exercice13/exercice13.js';
 import './exercice14/exercice14.js';
 import './exercice15/exercice15.js';
+import '../exercices/exerciceSelection.html'
+
+Template.exercicesHaut.helpers({
+    exercices: function() {
+        return Exercices.find( { type: 'haut' } )
+    }
+})
 
 Template.app_body.events({
 

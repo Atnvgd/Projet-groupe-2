@@ -17,9 +17,9 @@ Template.exercicesTout.events({
     'click #ajouter': function(event) {
         event.preventDefault();
         // CODE A EXECUTER TOUT DE SUITE
-        /*const test = Exercices.find({}).fetch()
+        const test = Exercices.find({}).fetch()
         console.log(test)
-        test.forEach(ex => Exercices.remove(ex._id))*/
+        test.forEach(ex => Exercices.remove(ex._id))
 
         const exercices = [
             {
@@ -185,9 +185,9 @@ Template.exercicesTout.events({
         ]
         
         // Executer ce code
-        /*exercices.forEach(ex => {
+        exercices.forEach(ex => {
             Exercices.insert(ex)
-        })*/
+        })
     }
 })
 

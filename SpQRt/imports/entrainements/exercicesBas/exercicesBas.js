@@ -1,12 +1,6 @@
 import { Exercices } from '../../api/exercices.js';
 
 import './exercicesBas.html';
-import './exercice1/exercice1.js';
-import './exercice3/exercice3.js';
-import './exercice7/exercice7.js';
-import './exercice9/exercice9.js';
-import './exercice5/exercice5.js';
-import './exercice8/exercice8.js';
 import '../exercices/exerciceSelection.html'
 
 Template.exercicesBas.helpers({
@@ -14,6 +8,13 @@ Template.exercicesBas.helpers({
         return Exercices.find( { type: 'bas' } )
     }
 })
+
+Template.exercicesBas.events({
+    'click .bouton': function(event) {
+        event.preventDefault();
+        FlowRouter.go('exercices', { idExercice: this._id })
+    },
+});
 
 Template.app_body.events({
 

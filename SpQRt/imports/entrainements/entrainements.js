@@ -4,6 +4,7 @@ import './ajouterentrain/ajouterentrain.js';
 import './exercicesHaut/exercicesHaut.js';
 import './exercicesBas/exercicesBas.js';
 import './exercicesTout/exercicesTout.js';
+import './exercices/exercice.js';
 
 Template.app_body.events({
 

@@ -13,12 +13,6 @@ Template.app_body.helpers({
     utilisateur: () => Meteor.user().username,
 });
 
-Template.app_body.helpers({
-    commentaires() {
-       return Commentaires.find({});
-      },
-});
-
 Template.app_body.events({
 
     'click #burgerMenu' (e) {

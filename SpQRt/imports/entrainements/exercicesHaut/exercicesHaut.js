@@ -1,11 +1,6 @@
 import { Exercices } from '../../api/exercices.js';
 
 import './exercicesHaut.html';
-import './exercice10/exercice10.js';
-import './exercice11/exercice11.js';
-import './exercice13/exercice13.js';
-import './exercice14/exercice14.js';
-import './exercice15/exercice15.js';
 import '../exercices/exerciceSelection.html'
 
 Template.exercicesHaut.helpers({
@@ -13,6 +8,13 @@ Template.exercicesHaut.helpers({
         return Exercices.find( { type: 'haut' } )
     }
 })
+
+Template.exercicesHaut.events({
+    'click .bouton': function(event) {
+        event.preventDefault();
+        FlowRouter.go('exercices', { idExercice: this._id })
+    },
+});
 
 Template.app_body.events({
 

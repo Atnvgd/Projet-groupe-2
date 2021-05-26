@@ -1,1 +1,0 @@
-import './exercice11.html';

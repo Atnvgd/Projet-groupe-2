@@ -2,6 +2,10 @@
     <button id="entrainements" class="btn-entrain">Retour aux entraînements</button>
     <br>
     <br>
+    <h2>Bas du corps</h2>
     <button class="btn-choix-entrain" id="exercicesHaut">Haut du corps</button>
     <p><button class="btn-choix-entrain" id="exercicesTout">Tout le corps</button></p>
+    {{#each exercices}}
+        {{> exerciceSelection}}
+    {{/each}}
 </template>

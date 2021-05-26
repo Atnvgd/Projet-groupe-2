@@ -11,3 +11,10 @@ Template.exercice.helpers({
 });
 
 //Ici pour les commentaires
+const textarea = document.getElementById("textarea");
+const monselect = document.getElementById("monselect");
+
+Template.exercice.events({
+
+//Commentaires.find( { idExercice : FlowRouter.getParam('idExercice') } )
+});

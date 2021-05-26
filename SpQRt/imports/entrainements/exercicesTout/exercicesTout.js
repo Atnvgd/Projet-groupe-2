@@ -185,9 +185,9 @@ Template.exercicesTout.events({
         ]
         
         // Executer ce code
-        exercices.forEach(ex => {
+        /*exercices.forEach(ex => {
             Exercices.insert(ex)
-        })
+        })*/
     }
 })
 

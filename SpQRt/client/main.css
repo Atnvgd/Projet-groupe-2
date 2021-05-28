@@ -237,3 +237,9 @@ body {
 .source-icon {
   font-size: 14px;
 }
+
+.espace-commentaire {
+  margin-left: 20px;
+  border: 1px black solid;
+  width: 200px;
+}

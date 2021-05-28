@@ -35,6 +35,7 @@ Template.exercice.events({
         texte : textarea.value,
         idExercice : FlowRouter.getParam('idExercice'),
       });
+      textarea.value = '';
     }
   },
 });

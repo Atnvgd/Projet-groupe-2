@@ -4,7 +4,6 @@ Template.recherche.events ({
     'click #go': function(event) {
         event.preventDefault();
         const input1 = document.getElementById("inputTexte");
-        const bouton = document.getElementById("go");
         const leP = document.getElementById("zoneReponse");
         const contenu = input1.value;
 

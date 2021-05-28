@@ -9,6 +9,7 @@ Template.exercice.helpers({
     const exercice = Exercices.findOne( { _id: idExercice } )
     return exercice
   },
+  utilisateur: () => Meteor.user().username,
   commentaires: function() {
     return Commentaires.find( { idExercice : FlowRouter.getParam('idExercice') } )
   }
@@ -30,3 +31,4 @@ Template.exercice.events({
   },
 //Commentaires.find( { idExercice : FlowRouter.getParam('idExercice') } )
 });
+

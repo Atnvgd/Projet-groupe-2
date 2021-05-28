@@ -2,6 +2,7 @@ import { Exercices } from '../../api/exercices.js';
 import {Commentaires} from '../../api/commentaires.js';
 
 import './exercice.html';
+import './exerciceSelection.html';
 
 Template.exercice.helpers({
   donnees: function() {
@@ -37,4 +38,3 @@ Template.exercice.events({
     }
   },
 });
-

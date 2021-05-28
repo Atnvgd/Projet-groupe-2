@@ -11,24 +11,30 @@ Template.exercice.helpers({
   },
   utilisateur: () => Meteor.user().username,
   commentaires: function() {
-    return Commentaires.find( { idExercice : FlowRouter.getParam('idExercice') } )
+    return Commentaires.find( { idExercice : FlowRouter.getParam('idExercice') } ) 
   }
 });
-
-//Ici pour les commentaires
-
 
 Template.exercice.events({
   'click #publish': function(event) {
     event.preventDefault();
     const textarea = document.getElementById("textarea");
     const monselect = document.getElementById("monselect");
-    Commentaires.insert({
-      note : monselect.value,
-      texte : textarea.value,
-      idExercice : FlowRouter.getParam('idExercice'),
-    });
+    const Swal = require('sweetalert2')
+
+    if (textarea.value == '') {
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: `Votre commentaire est vide.`,
+      })
+    } else{
+      Commentaires.insert({
+        note : monselect.value,
+        texte : textarea.value,
+        idExercice : FlowRouter.getParam('idExercice'),
+      });
+    }
   },
-//Commentaires.find( { idExercice : FlowRouter.getParam('idExercice') } )
 });
 

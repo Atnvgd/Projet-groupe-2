@@ -17,6 +17,7 @@ Template.exercice.helpers({
 });
 
 Template.exercice.events({
+
   'click #publish': function(event) {
     event.preventDefault();
     const textarea = document.getElementById("textarea");
@@ -37,5 +38,10 @@ Template.exercice.events({
       });
       textarea.value = '';
     }
+  },
+
+  'click #remove': function(event) {
+    event.preventDefault();
+      Commentaires.remove(this._id);
   },
 });

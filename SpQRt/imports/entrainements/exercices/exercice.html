@@ -14,10 +14,11 @@
   <h4>Commentaires :</h4>
   {{#each commentaires}}
     <h5>{{utilisateur}}:</h5>
+    <button class="remove-btn" id="remove"> X </button>
     <div class="espace-commentaire">{{texte}}
     <br>
     <br>
-    Note: {{note}}/5
+    Note: {{note}}/5      
     </div>
     <br>
   {{/each}}

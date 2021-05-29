@@ -235,3 +235,11 @@ body {
   border: 1px black solid;
   width: 200px;
 }
+
+.remove-btn {
+  margin-left: 222px;
+  background-color: red;
+  border: 2px solid black;
+  color: black;
+  cursor: pointer;
+}

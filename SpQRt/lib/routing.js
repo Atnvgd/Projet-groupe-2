@@ -214,4 +214,3 @@ FlowRouter.route('/exercice/:idExercice', {
         BlazeLayout.render('app_body', { main: 'exercice' });
     }
 })
-

@@ -6,20 +6,20 @@
 
     <h4><U>Quelle parties du corps est-ce que ça travaille ? *</U></h4>
     <select id="categorieEx">
-        <option>Haut du corps</option>
-        <option>Bas du corps</option>
-        <option>Tout le corps</option>
+        <option value="haut">Haut du corps</option>
+        <option value="bas">Bas du corps</option>
+        <option value="tout">Tout le corps</option>
     </select>
 <br>
 <br>
     <h4><U>Muscles utilisés :</U></h4>
-    <textarea cols="30" rows="2" placeholder=""></textarea>
+    <textarea id="musclesUtilises" cols="30" rows="2" placeholder=""></textarea>
 <br>
 <br>
     <h4><U>Durée de l'exercice : *</U></h4>
-    <label for="durée" required></label>
-    <input id="durée" type="number" name="durée" min=0 max=60> minutes
-    <input id="durée" type="number" name="durée" min=0 max=60> secondes
+    <label for="duree" required></label>
+    <input id="dureeMin" type="number" name="durée" min=0 max=60> minutes
+    <input id="dureeSec" type="number" name="durée" min=0 max=60> secondes
 <br>
 <br>
     <h4><U>Difficulté de l'exercice (1 = facile / 5 = difficile) : *</U></h4>
@@ -33,7 +33,7 @@
 <br>
 <br>
     <h4><U>Décrire l'exercice : *</U></h4>
-    <textarea cols="60" rows="15" placeholder="" required></textarea>
+    <textarea id="description" cols="60" rows="15" placeholder="" required></textarea>
 <br>
 <br>
     <h4><U>Ajouter des photos :</U></h4>
@@ -41,6 +41,10 @@
 <br>
 <br>
     <a href="https://www.google.com/imghp?hl=fr" target="_blank">Depuis internet</a>
+<br>
+<br>
+<h4><U>Donner un titre à l'entraînement : *</U></h4>
+<input id="titre" type="text" required>
 <br>
 <br>
 <br>

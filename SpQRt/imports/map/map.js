@@ -59,6 +59,8 @@ if (Meteor.isClient) {
   });
 }
 
+//Marqueurs signalant où sont les QR codes:
+
 function afficherRepere (map) {
   marker = new google.maps.Marker({
     icon : 'http://maps.google.com/mapfiles/marker_green.png',

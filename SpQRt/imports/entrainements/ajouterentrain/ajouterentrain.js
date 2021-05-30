@@ -1,27 +1,36 @@
-// import {ExercicesUtilisateur} from '../../api/exercices.js';
+import { Exercices } from '../../api/exercices.js';
 
 import './ajouterentrain.html';
+import '../exercices/exercice.js';
 
-// Template.ajouterentrain.events({
-    // 'click #publier-entrainements' : function(event) {
-        // event.preventDefault();
-        // const titreExercice = document.getElementById("titre");
-        // const partieCorps = document.getElementById("categorieEx");
-        // const musclesInput = document.getElementById("musclesUtilises");
-        // const minutes = document.getElementById("dureeMin");
-        // const secondes = document.getElementById("dureeSec");
-        // const diffExercice = document.getElementById("diffEx");
-        // const descriptionExercice = document.getElementById("description");
-        //Image ?
+Template.ajouterentrain.events({
+    'click #publier-entrainements': function(event) {
+        event.preventDefault();
+        const Swal = require('sweetalert2')
+        const titre = document.getElementById("titre");
+        const muscle = document.getElementById("musclesUtilises");
+        const difficulte = document.getElementById("diffEx");
+        const duree = document.getElementById("duree");
+        const description = document.getElementById("description");
+        const type = document.getElementById("categorieEx");
+        const image = document.getElementById("image");
+    
 
-        // ExercicesUtilisateur.insert({
-            // titre : titreExercice.value,
-            // partie : partieCorps.value,
-            // muscles : musclesInput.value,
-            // minutes : minutes.value,
-            // secondes : secondes.value,
-            // difficulte : diffExercice.value,
-            // description : descriptionExercice.value,
-        // });
-    // }
-// });
+        Exercices.insert({
+            titre: titre.value,
+            muscle: muscle.value,
+            difficulte: difficulte.value,
+            duree: duree.value,
+            description: description.value,
+            type: type.value,
+            image: image.value,
+        })
+
+        Swal.fire({
+            icon: 'success',
+            title: 'Votre exercice a été ajouté!',
+            showConfirmButton: false,
+            timer: 1400
+          }) 
+    }
+});

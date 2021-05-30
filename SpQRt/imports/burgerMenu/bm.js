@@ -1,5 +1,3 @@
-import './bm.html';
-
 import '../entrainements/entrainements.js';
 import '../recherche/recherche.js';
 import '../contact/contact.js';

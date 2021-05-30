@@ -1,16 +1,10 @@
 import { Template } from 'meteor/templating';
-import { ReactiveVar } from 'meteor/reactive-var';
 import { Accounts } from 'meteor/accounts-base';
-import { meteor } from 'meteor/meteor';
-import Swal from 'sweetalert2'
-
 
 import './creercompte.html';
 
-
 Template.creercompte.events({
     
-
     'click #creercompte' (event) {
         event.preventDefault();
         let nom = document.getElementById('username').value;

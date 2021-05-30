@@ -5,20 +5,6 @@ FlowRouter.route('/', {
     }
 }); 
 
-FlowRouter.route('/ouverture', {
-    name: 'ouverture',
-    action(){
-        BlazeLayout.render('app_body', { main: 'ouverture' });
-    }
-});
-
-FlowRouter.route('/recherche', {
-    name: 'recherche',
-    action(){
-        BlazeLayout.render('app_body', { main: 'recherche' });
-    }
-}); 
-
 FlowRouter.route('/contact', {
     name: 'contact',
     action(){
@@ -37,13 +23,6 @@ FlowRouter.route('/profil', {
     name: 'profil',
     action(){
         BlazeLayout.render('app_body', { main: 'profil' });
-    }
-}); 
-
-FlowRouter.route('/burgerMenu', {
-    name: 'burgerMenu',
-    action(){
-        BlazeLayout.render('app_body', { main: 'burgerMenu' });
     }
 }); 
 
@@ -67,76 +46,6 @@ FlowRouter.route('/creercompte', {
         BlazeLayout.render('app_body', { main: 'creercompte' });
     }
 }); 
-
-FlowRouter.route('/exercice1', {
-    name: 'exercice1',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice1' });
-    }
-}); 
-
-FlowRouter.route('/exercice2', {
-    name: 'exercice2',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice2' });
-    }
-});
-
-FlowRouter.route('/exercice3', {
-    name: 'exercice3',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice3' });
-    }
-});
-
-FlowRouter.route('/exercice4', {
-    name: 'exercice4',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice4' });
-    }
-});
-
-FlowRouter.route('/exercice5', {
-    name: 'exercice5',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice5' });
-    }
-});
-
-FlowRouter.route('/exercice6', {
-    name: 'exercice6',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice6' });
-    }
-});
-
-FlowRouter.route('/exercice7', {
-    name: 'exercice7',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice7' });
-    }
-});
-
-FlowRouter.route('/exercice8', {
-    name: 'exercice8',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice8' });
-    }
-});
-
-FlowRouter.route('/exercice9', {
-    name: 'exercice9',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice9' });
-    }
-});
-
-FlowRouter.route('/exercice10', {
-    name: 'exercice10',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice10' });
-    }
-});
 
 FlowRouter.route('/ajouterentrain', {
     name: 'ajouterentrain',
@@ -163,48 +72,6 @@ FlowRouter.route('/exercicesTout', {
     name: 'exercicesTout',
     action(){
         BlazeLayout.render('app_body', { main: 'exercicesTout' });
-    }
-});
-
-FlowRouter.route('/exercice11', {
-    name: 'exercice11',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice11' });
-    }
-});
-
-FlowRouter.route('/exercice12', {
-    name: 'exercice12',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice12' });
-    }
-});
-
-FlowRouter.route('/exercice13', {
-    name: 'exercice13',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice13' });
-    }
-});
-
-FlowRouter.route('/exercice14', {
-    name: 'exercice14',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice14' });
-    }
-});
-
-FlowRouter.route('/exercice15', {
-    name: 'exercice15',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice15' });
-    }
-});
-
-FlowRouter.route('/exercice16', {
-    name: 'exercice16',
-    action(){
-        BlazeLayout.render('app_body', { main: 'exercice16' });
     }
 });
 

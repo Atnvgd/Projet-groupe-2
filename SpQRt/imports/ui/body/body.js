@@ -2,12 +2,9 @@ import './body.html';
 import '../../burgerMenu/bm.js';
 import '../../connection/connection.js';
 import '../../creercompte/creercompte.js';
-import '../../ouverture/ouverture.js';
 import '../../../lib/routing.js';
 
 import { Template } from 'meteor/templating';
-
-import { Commentaires } from '../../api/commentaires.js';
 
 Template.app_body.helpers({
     utilisateur: () => Meteor.user().username,

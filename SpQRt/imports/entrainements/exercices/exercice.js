@@ -22,7 +22,7 @@ Template.exercice.events({
     event.preventDefault();
     const textarea = document.getElementById("textarea");
     const monselect = document.getElementById("monselect");
-    const Swal = require('sweetalert2')
+    const Swal = require('sweetalert2');
 
     if (textarea.value == '') {
       Swal.fire({

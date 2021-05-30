@@ -2,6 +2,7 @@ import { Exercices } from '../../api/exercices.js';
 
 import './ajouterentrain.html';
 import '../exercices/exercice.js';
+import './lienImage.html';
 
 Template.ajouterentrain.events({
     'click #publier-entrainements': function(event) {

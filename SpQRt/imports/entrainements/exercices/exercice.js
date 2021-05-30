@@ -44,4 +44,5 @@ Template.exercice.events({
     event.preventDefault();
       Commentaires.remove(this._id);
   },
+
 });

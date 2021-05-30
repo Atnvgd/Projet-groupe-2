@@ -15,7 +15,13 @@ Template.ajouterentrain.events({
         const type = document.getElementById("categorieEx");
         const image = document.getElementById("image");
     
-
+        if (titre.value == '' | muscle.value == '' | duree.value == '' | description.value == '') {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: `Veuillez remplir les champs.`,
+              })
+        } else {
         Exercices.insert({
             titre: titre.value,
             muscle: muscle.value,
@@ -32,5 +38,7 @@ Template.ajouterentrain.events({
             showConfirmButton: false,
             timer: 1400
           }) 
+          FlowRouter.go('entrainements');
+        }
     }
 });

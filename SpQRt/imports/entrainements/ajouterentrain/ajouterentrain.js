@@ -18,8 +18,7 @@ Template.ajouterentrain.events({
         if (titre.value == '' | muscle.value == '' | duree.value == '' | description.value == '') {
             Swal.fire({
                 icon: 'error',
-                title: 'Oops...',
-                text: `Veuillez remplir les champs.`,
+                title: 'Veuillez remplir les champs.',
               })
         } else {
         Exercices.insert({

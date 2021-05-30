@@ -13,7 +13,7 @@ Template.ajouterentrain.events({
         const duree = document.getElementById("duree");
         const description = document.getElementById("description");
         const type = document.getElementById("categorieEx");
-        const image = document.getElementById("image");
+        const image = document.getElementById("lien-image");
     
         if (titre.value == '' | muscle.value == '' | duree.value == '' | description.value == '') {
             Swal.fire({

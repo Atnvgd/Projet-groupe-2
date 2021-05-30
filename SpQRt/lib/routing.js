@@ -81,3 +81,10 @@ FlowRouter.route('/exercice/:idExercice', {
         BlazeLayout.render('app_body', { main: 'exercice' });
     }
 })
+
+FlowRouter.route('/lienImage', {
+    name: 'lienImage',
+    action(){
+        BlazeLayout.render('app_body', { main: 'lienImage' });
+    }
+});
